@@ -1,5 +1,4 @@
 ﻿using StrategyPattern;
-using System;
 using System.Collections.Generic;
 namespace StrategyPattern
 {
@@ -80,7 +79,7 @@ namespace StrategyPattern
         }
     }
 }
-namespace Strategy
+    namespace Strategy
 {
     public class Program
     {
