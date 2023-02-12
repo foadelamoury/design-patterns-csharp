@@ -1,4 +1,4 @@
-﻿#region Factory Original
+﻿#region Original
 //using System;
 //using System.Net.Http.Headers;
 //using Factory.Models.OnlineStores;
@@ -130,8 +130,8 @@ namespace RefactoringGuru.DesignPatterns.FactoryMethod.Conceptual
             ClientCode(new ConcreteCreator2());
         }
 
-        // The client code works with an instance of a concrete creator, albeit
-        // through its base interface. As long as the client keeps working with
+        // The client code works with an instance of a concrete creator,
+        // although its base interface. As long as the client keeps working with
         // the creator via the base interface, you can pass it any creator's
         // subclass.
         public void ClientCode(Creator creator)
